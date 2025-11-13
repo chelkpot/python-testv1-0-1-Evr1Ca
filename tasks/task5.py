@@ -7,7 +7,6 @@ def solve():
     numbers = map(int, input("Введите числа: ").split())
     squares = map(lambda x: x**2, numbers)
     print("Результат:", *squares)
-
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
     solve()
